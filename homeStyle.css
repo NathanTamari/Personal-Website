@@ -1,47 +1,77 @@
 header {
-    display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center;
+    text-align: left;
     height: 100px;
-    border: 2px solid #333; 
-    background-color: #f0f0f0;
+    display: inline;  
   }
 
   h1 {
-    text-align: center;
-    color: blue;
+    text-align: left;
+    color: darkred;
+    padding-left: 50px;
   }
 
+  hr {
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 500%;
+  }
 
   nav {
     margin-top: 10px;
-    text-align: center; 
-    border: 2px solid #333; 
-
+    display: inline;  
+    text-align: left;
   }
 
   ul {
     list-style-type: none;
-    padding: 0;
   }
 
   li {
-    display: inline;
-    margin: 15px;
-    
+    display: inline;  
   }
 
   a {
     text-decoration: none;
     color: black;
-    font-size: large;
+    font-size: x-large;
+    padding: 10px; 
+    font-family: monospace;
   }
   
-  .current { 
-    text-decoration: underline;
-  }
+a:hover {
+  color: red;
+}
 
-  .Portrait {
-    padding: 10px;
-    text-align: center;
-    }
+h3 {
+  font-size: 100px;
+  float: left;
+  padding: 20px;
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+  
+.my_name {
+  color: aqua;
+}
+
+.Portrait { 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.Socials {
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.SocialPngs {
+  margin-right: 20px;
+  height: 100px;
+}
