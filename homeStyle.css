@@ -1,7 +1,7 @@
 header {
     text-align: left;
     height: 100px;
-    display: inline;  
+    display: inline;
   }
 
   h1 {
@@ -61,17 +61,20 @@ h3 {
   right: 0;
 }
 
-.Socials {
-
-}
-
 body {
   display: flex;
   flex-direction: column;
   align-items: left;
+  background-image: url(backdrop.jpeg);
+  background-size: cover;
 }
 
 .SocialPngs {
   margin-right: 20px;
   height: 100px;
+}
+
+#nameInBold {
+  background-color: transparent;
+  border: transparent;
 }
